@@ -1,3 +1,3 @@
-# my-first-project
-my-first-project
+# c语言基础学习过程
+
 for循环累加求和
