@@ -3,7 +3,8 @@
 //{
 //	for (int i = 1; i <= 5; i++)
 //	{
-//		printf("¹ù¼ÑÏË\n");
+//		printf("wzl\n");
 //	}
 //	return 0;
+
 //}
