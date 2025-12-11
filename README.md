@@ -1,3 +1,4 @@
-# c语言基础学习过程-循环
+# c语言基础学习过程
 
-循环的一些题目
+-Loop-Exercise:存放c语言循环练习题
+-Function-Exercise：存放c语言函数练习题

@@ -1,5 +1,5 @@
 /*
-题目：输入一个整数，使他反转
+棰樼洰锛氳緭鍏ヤ竴涓暣鏁帮紝浣夸粬鍙嶈浆
 */
 
 #include <stdio.h>
@@ -7,10 +7,10 @@ int main()
 {
 	int number;
 	int rev=0;
-	printf("请输入一个整数：\n");
+	printf("璇疯緭鍏ヤ竴涓暣鏁帮細\n");
 	scanf("%d", &number);
 	
-	//处理负数//
+	//澶勭悊璐熸暟//
 	int sign=1;
 	if (number < 0)
 	{
@@ -18,7 +18,7 @@ int main()
 		number = -number;
 	}
 
-	//反转
+	//鍙嶈浆
 	while (number != 0)
 	{
 		int temp = number % 10;
@@ -26,9 +26,9 @@ int main()
 		rev = rev * 10 + temp;
 	}
 
-	//确定符号
+	//纭畾绗﹀彿
 		rev = rev * sign;
-		printf("反转后的数字是：%d\n", rev);
+		printf("鍙嶈浆鍚庣殑鏁板瓧鏄細%d\n", rev);
 	
 	return 0;
 }

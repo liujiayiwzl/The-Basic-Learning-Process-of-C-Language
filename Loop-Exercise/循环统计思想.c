@@ -1,14 +1,14 @@
 /*
-ÌâÄ¿£º¼üÅÌÂ¼ÈëÁ½¸öÊý×Ö
-      ÔÚÕâÁ½¸öÊý×ÖµÄ·¶Î§ÖÐ
-      ¼ÈÄÜ±»6Õû³ýÓÖÄÜ±»8Õû³ýµÄÊýÓÐ¶àÉÙ¸ö
+é¢˜ç›®ï¼šé”®ç›˜å½•å…¥ä¸¤ä¸ªæ•°å­—
+      åœ¨è¿™ä¸¤ä¸ªæ•°å­—çš„èŒƒå›´ä¸­
+      æ—¢èƒ½è¢«6æ•´é™¤åˆèƒ½è¢«8æ•´é™¤çš„æ•°æœ‰å¤šå°‘ä¸ª
 */
 #include <stdio.h>
 int main()
 {
     int num1;
     int num2;
-    printf("ÇëÊäÈëÁ½¸öÕûÊý£º\n");
+    printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•´æ•°ï¼š\n");
     scanf("%d %d", &num1, &num2);
     
     if (num1 > num2)
@@ -25,6 +25,6 @@ int main()
         if (i % 6 == 0 && i % 8 == 0)
             count++;
     }
-    printf("ÔÚÕâÁ½¸öÊý×ÖµÄ·¶Î§ÖÐ,¼ÈÄÜ±»6Õû³ýÓÖÄÜ±»8Õû³ýµÄÊýÓÐ%d¸ö\n", count);
+    printf("åœ¨è¿™ä¸¤ä¸ªæ•°å­—çš„èŒƒå›´ä¸­,æ—¢èƒ½è¢«6æ•´é™¤åˆèƒ½è¢«8æ•´é™¤çš„æ•°æœ‰%dä¸ª\n", count);
     return 0;
 }

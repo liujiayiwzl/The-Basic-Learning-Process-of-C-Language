@@ -2,13 +2,13 @@
 int main()
 {
 	int number;
-	printf("请输入一个整数：");
+	printf("璇疯緭鍏ヤ竴涓暣鏁帮細");
 	scanf("%d", &number);
 	int i = 1;
 	while (i * i <= number)
 	{
 		i++;
 	}
-	printf("该整数的平方根的整数为：%d", i - 1);
+	printf("璇ユ暣鏁扮殑骞虫柟鏍圭殑鏁存暟涓猴細%d", i - 1);
 	return 0;
 }
