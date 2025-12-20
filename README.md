@@ -4,5 +4,5 @@
 ##仓库结构  
 -**Loop-Exercise**:存放c语言循环练习题  
 -**Function-Exercise**：存放c语言函数练习题  
--**Array-Exercise**:存放c语言数组练习题
+-**Array-Exercise**:存放c语言数组练习题  
 -**Pointer-Exercise**:存放c语言指针练习题
