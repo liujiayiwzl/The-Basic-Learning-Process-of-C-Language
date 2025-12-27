@@ -7,4 +7,4 @@
 -**Array-Exercise**:存放c语言数组练习题  
 -**Pointer-Exercise**:存放c语言指针练习题  
 -**String-Exercise**:存放c语言字符串练习题  
--**Struct-Exercise**:存放c语言结构体练习题
+-**Struct and Union-Exercise**:存放c语言结构体和共同体练习题
